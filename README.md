@@ -23,18 +23,18 @@
         </header>
 
         <div class="cta">
-            <a href="menu.html"><img src="assets/cta.png" alt=""></a>
+            <a href="menu.html"><img src="assets/images/cta.png" alt=""></a>
         </div>
 
         <div class="aboutus">
-            <a href="aboutus.html"><img src="assets/aboutus.png" alt=""></a>
+            <a href="aboutus.html"><img src="assets/images/aboutus.png" alt=""></a>
         </div>
 
         <div id="promotions-title"><h4>Signature Dishes</h4></div>
         <div id="promotions">
             <div class="promotions-items">
                 <div  class="mains-images">
-                    <img src="assets/food-pictures/mexican-chicken-chop.jpg" alt="">
+                    <img src="assets/images/food-pictures/mexican-chicken-chop.jpg" alt="">
                 </div>
                 <div class="mains-names">
                     Mexican Chicken Chop
@@ -45,7 +45,7 @@
             </div>
             <div class="promotions-items">
                 <div class="mains-images">
-                    <img src="assets/food-pictures/mixed-grill.jpg" alt="">
+                    <img src="assets/images/food-pictures/mixed-grill.jpg" alt="">
                 </div>
                 <div class="mains-names">
                     Mixed Grill
@@ -56,7 +56,7 @@
             </div>
             <div class="promotions-items">
                 <div class="mains-images">
-                    <img src="assets/food-pictures/grilled-fish.jpg" alt="">
+                    <img src="assets/images/food-pictures/grilled-fish.jpg" alt="">
                 </div>
                 <div class="mains-names">
                     Grilled Fish
@@ -67,7 +67,7 @@
             </div>
             <div class="promotions-items">
                 <div  class="mains-images">
-                    <img src="assets/food-pictures/hawaiian-chicken-chop.jpg" alt="">
+                    <img src="assets/images/food-pictures/hawaiian-chicken-chop.jpg" alt="">
                 </div>
                 <div class="mains-names">
                     Hawaiian Chicken Chop
@@ -78,7 +78,7 @@
             </div>
             <div class="promotions-items">
                 <div  class="mains-images">
-                    <img src="assets/food-pictures/chicken-cutlet-with-nacho-cheese.jpg" alt="">
+                    <img src="assets/images/food-pictures/chicken-cutlet-with-nacho-cheese.jpg" alt="">
                 </div>
                 <div class="mains-names">
                     Chicken Cutlet With Nacho Cheese
@@ -89,7 +89,7 @@
             </div>
             <div class="promotions-items">
                 <div  class="mains-images">
-                    <img src="assets/food-pictures/beef-steak.jpg" alt="">
+                    <img src="assets/images/food-pictures/beef-steak.jpg" alt="">
                 </div>
                 <div class="mains-names">
                     Beef Steak
@@ -100,7 +100,7 @@
             </div>
             <div class="promotions-items">
                 <div class="spaghetti-images">
-                    <img src="assets/food-pictures/spaghetti-chicken-bolognese.jpg" alt="">
+                    <img src="assets/images/food-pictures/spaghetti-chicken-bolognese.jpg" alt="">
                 </div>
                 <div class="spaghetti-names">
                     Spaghetti Chicken Bolognese
