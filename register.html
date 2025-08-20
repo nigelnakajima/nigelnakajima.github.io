@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="register.html">Register now</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form id="registerform" action="http://jkorpela.fi/cgi-bin/echo.cgi" method="get">
+            
+            <fieldset>
+                <legend>Registration</legend>
+                <div>
+                    <label for="myUsername">Login ID: </label>
+                    <input class="inputarea" type="text" name="myUsername" id="myUsername" placeholder="Please enter a username" required>
+                </div>
+                <div>
+                    <label for="myName">Full Name: </label>
+                    <input class="inputarea" type="text" name="myName" id="myName" placeholder="Please enter your full name" required>
+                </div>
+                <div>
+                    <label for="myPassword">Password: </label>
+                    <input class="inputarea" type="password" name="myPassword" id="myPassword" required placeholder="Please enter a password" minlength="16">
+                </div>
+                <div>
+                    <label for="myMobileNo">Mobile Number:</label>
+                    <input class="inputarea" type="text" name="myMobileNo" id="myMobileNo" required placeholder="Please enter your mobile number" pattern="[8,9,6]{1}[0-9]{7}" title="Please enter an 8 digit mobile number beginning with 6, 8 or 9">
+                </div>
+                <div>
+                    <label for="myGender">Gender: </label>
+                    <input class="radioarea" type="radio" name="myGender" id="myGender" value="Male" required>Male
+                    <input class="radioarea"  type="radio" name="myGender" value="Female" required>Female
+                    <input class="radioarea"  type="radio" name="myGender"  value="Other" required>Other
+                </div>
+                <div>
+                <label for="myEmail">Email Adress: </label>
+                <input class="inputarea" type="email" name="myEmail" id="myEmail" required placeholder="Please enter a valid Email Address">
+                </div>
+                <div>
+                    <label for="myAddress">Physical Adress:</label>
+                    <input class="inputarea" type="text" name="myAddress" id="myAddress" required placeholder="Please enter your address">
+                </div>
+                <div>
+                    <label for="myFavouriteFood">Favourite food: </label>
+                    <input class="inputarea" type="text" name="myFavouriteFood" id="myFavouriteFood" placeholder="Please enter your favourite food (optional)">
+                </div>
+                
+                <button type="submit">Confirm</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+            
+        </form>
+        
+        <footer>
+            <div>
+                Copyright&copy; developed by Nigel Nakajima Ken
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
