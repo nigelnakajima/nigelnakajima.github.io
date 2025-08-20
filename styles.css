@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    margin: auto;
+    width: 1266px;
+    background-color: rgb(155, 73, 34);
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(155, 73, 34);
+    justify-self: center;
+    justify-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cta img{
+    width: 100%;
+}
+
+.aboutus img {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(118, 54, 25);
+}
+
+nav ul {
+    margin-left: 100px;
+    margin-right:100px;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin: auto;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+
+nav ul li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: rgb(118, 54, 25);
+}
+
+#promotions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.promotions-items {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 26%;
+    height: 430px;
+    background-color: white;
+    color: black;
+}
+#mains-title, #light-bites-title, #spaghetti-title, #sides-title, #promotions-title {
+    text-align: center;
+    font-size: 6em;
+    margin: 20px;
+}
+
+#sides-subtitle {
+    margin-top: -20px;
+    text-align: center;
+}
+
+#mains {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.mains-items  {
+    width: 25%;
+    height: 500px;
+    border: white solid 3px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    
+}
+
+.mains-images, .mains-names, .mains-prices {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.mains-names {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.mains-descriptions {
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mains-prices {
+    font-size: 1.5em;
+}
+.mains-images img {
+    padding-top: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+#light-bites {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     
+}
+
+.light-bites-items  {
+    width: 25%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    
+    
+}
+
+.light-bites-images, .light-bites-names, .light-bites-prices {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.light-bites-names {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.light-bites-descriptions {
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.light-bites-prices {
+    font-size: 1.5em;
+}
+.light-bites-images img {
+    padding-top: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+#spaghetti {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     
+}
+
+.spaghetti-items  {
+    width: 25%;
+    height: 465px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    
+    
+}
+
+.spaghetti-images, .spaghetti-names, .spaghetti-prices {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.spaghetti-names {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.spaghetti-descriptions {
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.spaghetti-prices {
+    font-size: 1.5em;
+}
+.spaghetti-images img {
+    padding-top: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+#sides {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+     
+}
+
+.sides-items  {
+    width: 25.1%;
+    height: 440px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    
+}
+
+.sides-images, .sides-names, .sides-prices {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sides-names {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.sides-descriptions {
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sides-prices {
+    font-size: 1.5em;
+}
+.sides-images img {
+    padding-top: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+.aboutus-image {
+    text-align: center;
+}
+
+.aboutus-image img {
+    border: white 3px solid;
+    width: 70%;
+}
+
+#aboutus {
+    display: flex;
+}
+
+#information, #additional-information {
+    margin: 50px;
+    width: 45%;
+}
+
+#information {
+    position: relative;
+    left: 5%;
+    font-size: 1.5em;
+}
+
+#information div, #additional-information div {
+    margin: 10px;
+}
+
+#additional-information {
+    font-size: 1.5em;
+}
+
+#registerform {
+    background-image: url(../images/logo.jpg);
+    background-position-x: 80%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+#registerform div{
+    margin: 30px;
+    
+}
+
+#registerform button, #orderform button {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 10px;
+    border: white 1px solid;
+    border-radius: 15px;
+}
+
+#registerform legend {
+    margin-left: 10px;
+    font-size: 2em;
+}
+
+#registerform {
+    padding: 20px;
+}
+
+.inputarea {
+    width: 250px;
+}
+
+.radioarea {
+    margin-left: 10px;
+}
+
+#orderform {
+    width: 50%;
+    margin: 30px;
+}
+
+#orderform div {
+    margin: 20px;
+}
+
+#orderform fieldset {
+    position: relative;
+    margin: 30px;
+}
+
+#orderform legend {
+    font-size: 3em;
+    margin-left: 10%;
+}
+
+.quantitylabel {
+    position: absolute;
+    right: 160px;
+}
+ #MainsQuantity, #LightBitesQuantity, #SpaghettiQuantity {
+    position: absolute;
+    right: 10px;
+}
+
+#orderform textarea {
+    margin-left: -25px;
+    margin-top: -15px;
+    margin-right: -25px;
+}
+
+#orderform-button {
+    position: absolute;
+    right: 30%;
+    bottom: 5%;
+}
