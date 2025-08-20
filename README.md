@@ -23,7 +23,7 @@
         </header>
 
         <div class="cta">
-            <a href="menu.html"><img src="images/cta.png" alt=""></a>
+            <a href="menu.html"><img src="assets/cta.png" alt=""></a>
         </div>
 
         <div class="aboutus">
